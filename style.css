@@ -17,18 +17,26 @@ body {
   margin: auto;
 }
 
-/* Navigation */
+/* Header and Navigation */
 header {
   background: #222;
   color: #fff;
   padding: 1rem 0;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: 600;
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Logo Styling */
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Navigation */
 nav {
   display: flex;
   justify-content: space-between;
@@ -145,7 +153,7 @@ footer a {
   text-decoration: none;
 }
 
-/* Responsive */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
