@@ -5,24 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Deport Coin | Solana Memecoin</title>
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Optional: include Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <!-- Navigation -->
+  <!-- Header / Navigation -->
   <header>
     <div class="container header-container">
       <div class="logo">
-        <img src="DEPORT.jpg" alt="Deport Coin Logo">
+        <img src="DEPORT.jpg" alt="Deport Coin Logo" />
       </div>
       <nav>
         <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#roadmap">Roadmap</a></li>
           <li><a href="#tokenomics">Tokenomics</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="#join" class="btn nav-btn">Join</a></li>
         </ul>
         <button class="menu-toggle" id="menuToggle">&#9776;</button>
       </nav>
@@ -30,69 +32,128 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to Deport Coin</h2>
-      <p>The Next Big Solana Memecoin.</p>
-      <a href="#about" class="btn">Learn More</a>
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1 class="animate-fadein">Welcome to Deport Coin</h1>
+      <p class="animate-fadein delay-1">
+        The most fun and innovative Solana Memecoin on the market!
+      </p>
+      <a href="#about" class="btn animate-fadein delay-2">Discover More</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about">
+  <section id="about" class="about section">
     <div class="container">
-      <h2>About Deport Coin</h2>
+      <h2 class="section-title">About Deport Coin</h2>
       <p>
-        Deport Coin is a community-driven memecoin built on the Solana blockchain.
-        We are committed to creating a fun, innovative, and decentralized ecosystem.
+        Deport Coin is a revolutionary memecoin built on the Solana blockchain that combines fun, community, and cutting‑edge technology. Our mission is to create a vibrant ecosystem where enthusiasts can engage, innovate, and reap the rewards.
       </p>
     </div>
   </section>
 
   <!-- Roadmap Section -->
-  <section id="roadmap" class="roadmap">
+  <section id="roadmap" class="roadmap section">
     <div class="container">
-      <h2>Roadmap</h2>
-      <ul>
-        <li><strong>Phase 1:</strong> Community Building & Awareness</li>
-        <li><strong>Phase 2:</strong> Token Launch & Listings</li>
-        <li><strong>Phase 3:</strong> Ecosystem Development</li>
-        <li><strong>Phase 4:</strong> Strategic Partnerships</li>
-      </ul>
+      <h2 class="section-title">Roadmap</h2>
+      <div class="roadmap-timeline">
+        <div class="roadmap-item">
+          <h3>Phase 1: Community Building</h3>
+          <p>
+            We focus on growing our community, creating awareness, and preparing for the token launch.
+          </p>
+        </div>
+        <div class="roadmap-item">
+          <h3>Phase 2: Token Launch</h3>
+          <p>
+            Official launch of Deport Coin along with listings on major Solana-based decentralized exchanges.
+          </p>
+        </div>
+        <div class="roadmap-item">
+          <h3>Phase 3: Ecosystem Expansion</h3>
+          <p>
+            Introducing new features, partnerships, and community rewards programs.
+          </p>
+        </div>
+        <div class="roadmap-item">
+          <h3>Phase 4: Global Outreach</h3>
+          <p>
+            Scaling the ecosystem through strategic partnerships and worldwide community initiatives.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Tokenomics Section -->
-  <section id="tokenomics" class="tokenomics">
+  <section id="tokenomics" class="tokenomics section">
     <div class="container">
-      <h2>Tokenomics</h2>
-      <p>
-        Learn about our token distribution, supply limits, and incentives for holders.
-      </p>
-      <ul>
-        <li>Total Supply: 1,000,000,000</li>
-        <li>Community: 50%</li>
-        <li>Liquidity: 20%</li>
-        <li>Development: 15%</li>
-        <li>Marketing: 10%</li>
-        <li>Reserved: 5%</li>
-      </ul>
+      <h2 class="section-title">Tokenomics</h2>
+      <div class="tokenomics-grid">
+        <div class="tokenomics-item">
+          <h3>Total Supply</h3>
+          <p>1,000,000,000</p>
+        </div>
+        <div class="tokenomics-item">
+          <h3>Community</h3>
+          <p>50%</p>
+        </div>
+        <div class="tokenomics-item">
+          <h3>Liquidity</h3>
+          <p>20%</p>
+        </div>
+        <div class="tokenomics-item">
+          <h3>Development</h3>
+          <p>15%</p>
+        </div>
+        <div class="tokenomics-item">
+          <h3>Marketing</h3>
+          <p>10%</p>
+        </div>
+        <div class="tokenomics-item">
+          <h3>Reserved</h3>
+          <p>5%</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- FAQ Section -->
-  <section id="faq" class="faq">
+  <section id="faq" class="faq section">
     <div class="container">
-      <h2>Frequently Asked Questions</h2>
-      <details>
-        <summary>What is Deport Coin?</summary>
-        <p>Deport Coin is a community-driven memecoin on the Solana blockchain.</p>
-      </details>
-      <details>
-        <summary>How can I buy Deport Coin?</summary>
-        <p>You can purchase Deport Coin on supported Solana-based decentralized exchanges.</p>
-      </details>
-      <!-- Add more FAQs as needed -->
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <details>
+          <summary>What is Deport Coin?</summary>
+          <p>
+            Deport Coin is a community‑driven memecoin built on the Solana blockchain, designed to merge fun with financial innovation.
+          </p>
+        </details>
+      </div>
+      <div class="faq-item">
+        <details>
+          <summary>How can I purchase Deport Coin?</summary>
+          <p>
+            You can purchase Deport Coin on supported Solana‑based decentralized exchanges. Follow our social channels for the latest updates.
+          </p>
+        </details>
+      </div>
+      <!-- Add more FAQ items as needed -->
+    </div>
+  </section>
+
+  <!-- Join Section -->
+  <section id="join" class="join section">
+    <div class="container">
+      <h2 class="section-title">Join the Community</h2>
+      <p>
+        Become part of the revolution! Connect with us on social media and join our Telegram group for the latest news and updates.
+      </p>
+      <div class="social-links">
+        <a href="https://twitter.com/" target="_blank" class="btn social-btn">Twitter</a>
+        <a href="https://t.me/" target="_blank" class="btn social-btn">Telegram</a>
+      </div>
     </div>
   </section>
 
@@ -101,7 +162,7 @@
     <div class="container">
       <p>&copy; 2025 Deport Coin. All rights reserved.</p>
       <p>
-        Follow us on
+        Follow us:
         <a href="https://twitter.com/" target="_blank">Twitter</a> |
         <a href="https://t.me/" target="_blank">Telegram</a>
       </p>
