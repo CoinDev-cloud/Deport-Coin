@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deport Coin | Solana Memecoin</title>
+  <title>Deport Coin | Premium Solana Memecoin</title>
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- A premium sans-serif font paired with a modern serif for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Merriweather:wght@300;700&display=swap" rel="stylesheet" />
+  <!-- AOS CSS for scroll animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <!-- Header / Navigation -->
-  <header>
+  <header id="header">
     <div class="container header-container">
-      <div class="logo">
+      <div class="logo" data-aos="fade-down">
         <img src="DEPORT.jpg" alt="Deport Coin Logo" />
       </div>
       <nav>
@@ -31,13 +35,14 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section with Particle Background -->
   <section class="hero" id="home">
+    <div id="particles-js"></div>
     <div class="overlay"></div>
-    <div class="container hero-content">
+    <div class="container hero-content" data-aos="fade-up">
       <h1 class="animate-fadein">Welcome to Deport Coin</h1>
       <p class="animate-fadein delay-1">
-        The most fun and innovative Solana Memecoin on the market!
+        Experience the Premium Solana Memecoin Revolution.
       </p>
       <a href="#about" class="btn animate-fadein delay-2">Discover More</a>
     </div>
@@ -46,9 +51,9 @@
   <!-- About Section -->
   <section id="about" class="about section">
     <div class="container">
-      <h2 class="section-title">About Deport Coin</h2>
-      <p>
-        Deport Coin is a revolutionary memecoin built on the Solana blockchain that combines fun, community, and cutting‑edge technology. Our mission is to create a vibrant ecosystem where enthusiasts can engage, innovate, and reap the rewards.
+      <h2 class="section-title" data-aos="fade-right">About Deport Coin</h2>
+      <p data-aos="fade-up">
+        Deport Coin is a community‑driven, premium memecoin built on the Solana blockchain. Combining fun, cutting‑edge technology, and a vibrant ecosystem, we empower enthusiasts to engage, innovate, and benefit from our shared vision.
       </p>
     </div>
   </section>
@@ -56,64 +61,64 @@
   <!-- Roadmap Section -->
   <section id="roadmap" class="roadmap section">
     <div class="container">
-      <h2 class="section-title">Roadmap</h2>
+      <h2 class="section-title" data-aos="fade-left">Roadmap</h2>
       <div class="roadmap-timeline">
-        <div class="roadmap-item">
+        <div class="roadmap-item" data-aos="zoom-in">
           <h3>Phase 1: Community Building</h3>
           <p>
-            We focus on growing our community, creating awareness, and preparing for the token launch.
+            Ignite and grow a passionate community with exclusive events and early access perks.
           </p>
         </div>
-        <div class="roadmap-item">
+        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="100">
           <h3>Phase 2: Token Launch</h3>
           <p>
-            Official launch of Deport Coin along with listings on major Solana-based decentralized exchanges.
+            Official token launch with strategic exchange listings and innovative features.
           </p>
         </div>
-        <div class="roadmap-item">
+        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="200">
           <h3>Phase 3: Ecosystem Expansion</h3>
           <p>
-            Introducing new features, partnerships, and community rewards programs.
+            Unveil cutting‑edge utilities, partnerships, and rewards that power our ecosystem.
           </p>
         </div>
-        <div class="roadmap-item">
+        <div class="roadmap-item" data-aos="zoom-in" data-aos-delay="300">
           <h3>Phase 4: Global Outreach</h3>
           <p>
-            Scaling the ecosystem through strategic partnerships and worldwide community initiatives.
+            Scale internationally with strategic collaborations and community initiatives.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Tokenomics Section -->
+  <!-- Tokenomics Section with Animated Counters -->
   <section id="tokenomics" class="tokenomics section">
     <div class="container">
-      <h2 class="section-title">Tokenomics</h2>
+      <h2 class="section-title" data-aos="fade-right">Tokenomics</h2>
       <div class="tokenomics-grid">
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up">
           <h3>Total Supply</h3>
-          <p>1,000,000,000</p>
+          <p class="counter" data-target="1000000000">0</p>
         </div>
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up" data-aos-delay="100">
           <h3>Community</h3>
-          <p>50%</p>
+          <p class="counter" data-target="50">0</p><span class="percent">%</span>
         </div>
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up" data-aos-delay="200">
           <h3>Liquidity</h3>
-          <p>20%</p>
+          <p class="counter" data-target="20">0</p><span class="percent">%</span>
         </div>
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up" data-aos-delay="300">
           <h3>Development</h3>
-          <p>15%</p>
+          <p class="counter" data-target="15">0</p><span class="percent">%</span>
         </div>
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up" data-aos-delay="400">
           <h3>Marketing</h3>
-          <p>10%</p>
+          <p class="counter" data-target="10">0</p><span class="percent">%</span>
         </div>
-        <div class="tokenomics-item">
+        <div class="tokenomics-item" data-aos="flip-up" data-aos-delay="500">
           <h3>Reserved</h3>
-          <p>5%</p>
+          <p class="counter" data-target="5">0</p><span class="percent">%</span>
         </div>
       </div>
     </div>
@@ -122,40 +127,46 @@
   <!-- FAQ Section -->
   <section id="faq" class="faq section">
     <div class="container">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <div class="faq-item">
+      <h2 class="section-title" data-aos="fade-up">Frequently Asked Questions</h2>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
         <details>
           <summary>What is Deport Coin?</summary>
           <p>
-            Deport Coin is a community‑driven memecoin built on the Solana blockchain, designed to merge fun with financial innovation.
+            A premium, community‑driven memecoin on the Solana blockchain that blends fun with financial innovation.
           </p>
         </details>
       </div>
-      <div class="faq-item">
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
         <details>
           <summary>How can I purchase Deport Coin?</summary>
           <p>
-            You can purchase Deport Coin on supported Solana‑based decentralized exchanges. Follow our social channels for the latest updates.
+            Purchase through supported Solana‑based decentralized exchanges. Follow our social channels for the latest updates.
           </p>
         </details>
       </div>
-      <!-- Add more FAQ items as needed -->
     </div>
   </section>
 
-  <!-- Join Section -->
+  <!-- Join Section with Newsletter Signup -->
   <section id="join" class="join section">
     <div class="container">
-      <h2 class="section-title">Join the Community</h2>
-      <p>
-        Become part of the revolution! Connect with us on social media and join our Telegram group for the latest news and updates.
+      <h2 class="section-title" data-aos="fade-up">Join the Community</h2>
+      <p data-aos="fade-up">
+        Connect with us on social media or subscribe to our newsletter for exclusive updates and insights.
       </p>
-      <div class="social-links">
+      <div class="social-links" data-aos="zoom-in">
         <a href="https://twitter.com/" target="_blank" class="btn social-btn">Twitter</a>
         <a href="https://t.me/" target="_blank" class="btn social-btn">Telegram</a>
       </div>
+      <form class="newsletter" data-aos="fade-up" data-aos-delay="200">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
     </div>
   </section>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scrollToTop" title="Scroll to top">&#8679;</button>
 
   <!-- Footer -->
   <footer>
@@ -169,6 +180,12 @@
     </div>
   </footer>
 
+  <!-- External Libraries -->
+  <!-- Particles.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <!-- AOS Library -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- Custom JavaScript -->
   <script src="js/script.js"></script>
 </body>
 </html>
