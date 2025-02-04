@@ -356,9 +356,7 @@ footer a:hover {
   animation-delay: 1s;
 }
 @keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  to { opacity: 1; }
 }
 
 /* =======================================
